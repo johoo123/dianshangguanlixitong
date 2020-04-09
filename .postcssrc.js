@@ -1,0 +1,11 @@
+// https://github.com/michael-ciniawsky/postcss-load-config
+// https://github.com/surmon-china/vue-quill-editor
+
+module.exports = {
+  "plugins": {
+    "postcss-import": {},
+    "postcss-url": {},
+    // to edit target browsers: use "browserslist" field in package.json
+    'autoprefixer': {browsers: 'last 5 version'}
+  }
+}
